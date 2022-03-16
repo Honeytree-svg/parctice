@@ -6,7 +6,7 @@ public class BasicBuffer {
 
     public static void main(String[] args) {
 
-        // 举例说明Buffer的使用
+        // 举例说明Buffer的使用W
         //创建一个buffer
         IntBuffer intbuff = IntBuffer.allocate(5);
 
@@ -14,7 +14,8 @@ public class BasicBuffer {
         intbuff.put(10);
         intbuff.put(10);
         intbuff.put(10);
-        intbuff.put(10);
+        //intbuff.put(10);
+
 
         // 将buffer转换，读写切换
         intbuff.flip();
